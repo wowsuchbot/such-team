@@ -43,11 +43,11 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="bg-gray-50 py-20">
+      <section id="services" className="gradient-bg py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center mb-16">Our Services</h2>
+          <h2 className="text-4xl font-bold text-center mb-16 text-white">Our Services</h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-lg shadow-sm">
+            <div className="bg-white/95 backdrop-blur-sm p-8 rounded-lg shadow-lg">
               <div className="text-3xl mb-4">🌐</div>
               <h3 className="text-2xl font-bold mb-4">Web Development</h3>
               <p className="text-gray-600 mb-4">
@@ -61,31 +61,31 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="bg-white p-8 rounded-lg shadow-sm">
+            <div className="bg-white/95 backdrop-blur-sm p-8 rounded-lg shadow-lg">
               <div className="text-3xl mb-4">🤖</div>
               <h3 className="text-2xl font-bold mb-4">AI Agent Cloud</h3>
               <p className="text-gray-600 mb-4">
-                Custom AI agents that handle repetitive tasks, customer support, data processing, and business automation.
+                Deploy intelligent AI agents that handle customer support, data processing, and workflow automation.
               </p>
               <ul className="text-gray-600 space-y-2">
-                <li>• Form Processing Automation</li>
-                <li>• Customer Support Bots</li>
-                <li>• Content Management</li>
-                <li>• Data Integration</li>
+                <li>• 24/7 Automation</li>
+                <li>• Custom Workflows</li>
+                <li>• Scalable Infrastructure</li>
+                <li>• API Integrations</li>
               </ul>
             </div>
 
-            <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="text-3xl mb-4">🔧</div>
-              <h3 className="text-2xl font-bold mb-4">Ongoing Support</h3>
+            <div className="bg-white/95 backdrop-blur-sm p-8 rounded-lg shadow-lg">
+              <div className="text-3xl mb-4">🚀</div>
+              <h3 className="text-2xl font-bold mb-4">Business Automation</h3>
               <p className="text-gray-600 mb-4">
-                Monthly retainers for maintenance, updates, and continuous optimization of your digital infrastructure.
+                Streamline repetitive tasks with custom automation solutions that save time and reduce errors.
               </p>
               <ul className="text-gray-600 space-y-2">
-                <li>• Website Maintenance</li>
-                <li>• Agent Management</li>
-                <li>• Performance Monitoring</li>
-                <li>• Feature Updates</li>
+                <li>• Data Processing</li>
+                <li>• Email Automation</li>
+                <li>• Report Generation</li>
+                <li>• Custom Integrations</li>
               </ul>
             </div>
           </div>
@@ -94,45 +94,57 @@ export default function Home() {
 
       {/* About Section */}
       <section id="about" className="py-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center mb-8">Why Choose Such Team?</h2>
-          <div className="space-y-6 text-lg text-gray-600">
-            <p>
-              We're not just building websites—we're delivering intelligent systems that work around the clock.
-              Our unique combination of modern web development and AI automation means your business gets both a
-              beautiful online presence and powerful backend automation.
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-4xl font-bold mb-8">About Such Team</h2>
+            <p className="text-xl text-gray-600 mb-6">
+              We are a premium web development agency specializing in modern web technologies and AI-powered automation.
             </p>
-            <p>
-              Every project is custom-tailored to your needs, with transparent pricing and clear deliverables.
-              We focus on high-value automation that saves you thousands in operational costs while providing
-              a premium user experience.
+            <p className="text-xl text-gray-600 mb-6">
+              Our mission is to help businesses leverage cutting-edge technology to automate operations,
+              improve efficiency, and deliver exceptional digital experiences.
+            </p>
+            <p className="text-xl text-gray-600">
+              With expertise in Next.js, React, and cloud infrastructure, we build solutions that scale.
             </p>
           </div>
         </div>
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="bg-blue-600 text-white py-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold mb-6">Ready to Get Started?</h2>
-          <p className="text-xl mb-8">
-            Let's discuss how we can build your next project and automate your business operations.
-          </p>
-          <a
-            href="mailto:hello@suchteam.dev"
-            className="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"
-          >
-            Contact Us
-          </a>
+      <section id="contact" className="bg-gray-50 py-20">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold mb-4">Get in Touch</h2>
+            <p className="text-xl text-gray-600">
+              Ready to transform your business with modern web solutions and AI automation?
+            </p>
+          </div>
+          <div className="bg-white p-8 rounded-lg shadow-sm">
+            <div className="space-y-6 text-center">
+              <div>
+                <p className="text-sm text-gray-600 mb-2">Email us at</p>
+                <a
+                  href="mailto:suchteam.dev@gmail.com"
+                  className="text-xl font-semibold text-blue-600 hover:text-blue-700"
+                >
+                  suchteam.dev@gmail.com
+                </a>
+              </div>
+              <div className="border-t pt-6">
+                <p className="text-gray-600">
+                  We typically respond within 24 hours. Let us know about your project and we'll schedule a discovery call.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* Footer */}
       <footer className="border-t py-8">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center text-gray-600">
-            <p>&copy; 2026 Such Team. All rights reserved.</p>
-          </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-600">
+          <p>&copy; {<new Date().getFullYear()} Such Team. All rights reserved.</p>
         </div>
       </footer>
     </div>
